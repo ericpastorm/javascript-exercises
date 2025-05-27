@@ -7,8 +7,9 @@ const repeatString = function(string, num) {
             globstring += string;
             }
     }
+console.log(globstring);
 return globstring;
 };
-
+repeatString('hey', 3);
 // Do not edit below this line
 module.exports = repeatString;
